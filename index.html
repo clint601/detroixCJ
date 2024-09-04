@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Detroix</title>
 </head>
 <body>
     <header class="header" id="header">
-        <section class="section" id="headersection1">
+        <section class="section" id="headerSection1">
             <div class="container">
                 <div class="row">
                     <p id="hs1Text">
                         <a href="#" class="hs1-link">www.demolink.org</a>
                     </p>
-                    <ul id="hs1list">
+                    <ul id="hs1List">
                         <li class="hs1-item">
                             <a href="#" class="hs1-link">support</a>
                         </li>
@@ -27,48 +31,44 @@
                             <a href="#" class="hs1-link">help</a>
                         </li>
                     </ul>
-
+                    <div class="clear"></div>
                 </div>
-
             </div>
-        
         </section>
-        <section class="section" id="headersection2">
+        <section class="section" id="headerSection2">
             <div class="container">
                 <div class="row">
                     <h1 id="logo">
-                        <img src="logo.jpg" alt="detroix logo" class="logo-imh"/>
+                        <img src="img/logo.jpg" alt="Detroix Logo" class="logo-img" />
                         <span class="visually-hidden">detroix</span>
                     </h1>
                     <nav id="topNav">
-                        <ul id="hs2list">
-                            <li class="hs2-list">
+                        <ul id="hs2List">
+                            <li class="hs2-item">
                                 <a href="#" class="hs2-link">home</a>
                             </li>
-                            <li class="hs2-list">
+                            <li class="hs2-item">
                                 <a href="#" class="hs2-link">about</a>
                             </li>
-                            <li class="hs2-list">
+                            <li class="hs2-item">
                                 <a href="#" class="hs2-link">services</a>
                             </li>
-                            <li class="hs2-list">
-                                <a href="#" class="hs2-link">faps</a>
+                            <li class="hs2-item">
+                                <a href="#" class="hs2-link">faqs</a>
                             </li>
-                            <li class="hs2-list">
+                            <li class="hs2-item">
                                 <a href="#" class="hs2-link">contacts</a>
                             </li>
                         </ul>
-
+                    </nav>
                 </div>
-
             </div>
-            </nav>
         </section>
     </header>
     <main class="main" id="main">
-        <section class="section" id="herosection1">
+        <section class="section" id="mainSection1">
             <div class="container">
-                <img src="hero.jpg" alt="detroix hero image" class="hero-img"/>
+                <img src="img/hero.jpg"Detroix Hero image" class="hero-img" />
                 <div class="sliders">
                     <div class="slider"></div>
                     <div class="slider"></div>
@@ -76,142 +76,133 @@
                 </div>
             </div>
         </section>
-        <section class="section" id="herosection2">
+        <section class="section" id="mainSection2">
             <div class="container">
                 <div class="row">
                     <div class="content-box" id="smart">
                         <h2 class="content-heading">smart</h2>
-                        <img src="smart.jpg" alt="puzzle piece" class="content-img">
-                        <p class="content-text" id="strong">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsam repellat illo ratione esse dolorum, voluptatibus voluptates, ea quis corporis quisquam nulla odit necessitatibus ad accusamus provident.
-                        </p>
-
+                        <img src="img/smart.jpg" alt="puzzle piece" class="content-img" />
+                        <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus tempore magnam fugit exercitationem sequi ab dicta, repellendus, officiis et quod expedita pariatur ipsa, ea est impedit!</p>
+                        <button class="more-btn">more</button>
                     </div>
                     <div class="content-box" id="strong">
-                        <img src="" alt="">
+                        <h2 class="content-heading">strong</h2>
+                        <img src="img/strong.jpg" alt="a hand holding a plant" class="content-img" />
+                        <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus tempore magnam fugit exercitationem sequi ab dicta, repellendus, officiis et quod expedita pariatur ipsa, ea est impedit!</p>
+                        <button class="more-btn">more</button>
                     </div>
                     <div class="content-box" id="stable">
-                        <h2 class="content-box" id="stable">stable</h2>
-                        <img src="stable.jpg" alt="a maze" class="content-img">
-                        <p></p>
+                        <h2 class="content-heading">stable</h2>
+                        <img src="img/stable.jpg" alt="a maze" class="content-img" />
+                        <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus tempore magnam fugit exercitationem sequi ab dicta, repellendus, officiis et quod expedita pariatur ipsa, ea est impedit!</p>
+                        <button class="more-btn">more</button>
                     </div>
                 </div>
             </div>
-
         </section>
     </main>
     <footer class="footer" id="footer">
-        <section class="section" id="footersection1">
+        <section class="section" id="footerSection1">
             <div class="container">
                 <div class="row">
                     <div class="footer-content" id="services">
                         <h2 class="footer-heading">services</h2>
                         <ul id="servicesList">
                             <li class="services-item">
-                                <a href="#" class="service-link">Lorem ipsum dolor sit.</a>
+                                <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
+                            </li>
+                            <li class="services-item">
+                                <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
                             </li>
                             <li class="services-item">
                                 <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
                             </li>
                             <li class="services-item">
                                 <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
-
                             </li>
                             <li class="services-item">
                                 <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
                             </li>
                             <li class="services-item">
-                                <a href="#" class="services-link">Lorem, ipsum dolor sit.</a>
+                                <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
                             </li>
                             <li class="services-item">
                                 <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
-
                             </li>
                             <li class="services-item">
                                 <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
-
                             </li>
-                            <li class="services-item">
-                                <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
-
-                            </li>
-
                         </ul>
                         <button class="more-btn">more</button>
-
                     </div>
                     <div class="footer-content" id="opps">
                         <h2 class="footer-heading">opportunities</h2>
                         <ul id="oppsList">
                             <li class="opps-item">
                                 <h3 class="opps-heading">
-                                    <a href="#" class="opp-link">Lorem ipsum dolor sit.</a>
+                                    <a href="#" class="opps-link">Lorem ipsum dolor sit.</a>
                                 </h3>
-                                <p class="opps-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt officia unde iusto dolor illo facilis voluptates pariatur voluptatibus, repellendus excepturi.</p>
+                                <p class="opps-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ratione inventore id a. Exercitationem iste ducimus nisi, nesciunt vel dolores.</p>
                             </li>
                             <li class="opps-item">
                                 <h3 class="opps-heading">
-                                    <a href="#" class="opp-link">Lorem ipsum dolor sit.</a>
+                                    <a href="#" class="opps-link">Lorem ipsum dolor sit.</a>
                                 </h3>
-                                <p class="opps-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt officia unde iusto dolor illo facilis voluptates pariatur voluptatibus, repellendus excepturi.</p>
-                            </li>
+                                <p class="opps-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ratione inventore id a. Exercitationem iste ducimus nisi, nesciunt vel dolores.</p>
                             </li>
                         </ul>
                         <button class="more-btn">more</button>
                     </div>
                     <div class="footer-content" id="news">
                         <h2 class="footer-heading">news</h2>
-                        <ul id="newslist">
+                        <ul id="newsList">
                             <li class="news-item">
-                                <div class="date-div" id="datediv1">
+                                <div class="date-div" id="dateDiv1">
                                     <span class="date">21</span>
                                     <span class="month">nov</span>
                                 </div>
-                                <div class="new-block">
-                                    <h3 class="new-heading">
-                                        <a href="#"class=news-link> Lorem, ipsum dolor.</a>
-                                    </h3>
-                                    <p class="news-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, delectus!</p>
-                                </div>
-
-                            </li>
-                            <li class="new-item">
-                                <div class="date-div" id="datediv2">
-                                    <span class="date">12</span>
-                                    <span class="month">nov</span>
-                                </div>
-                                <div class="new-block">
-                                    <h3 class="new-heading">
+                                <div class="news-block">
+                                    <h3 class="news-heading">
                                         <a href="#" class="news-link">Lorem, ipsum dolor.</a>
                                     </h3>
-                                    <p class="news-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, delectus!</p>
+                                    <p class="news-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quaerat.</p>
                                 </div>
                             </li>
                             <li class="news-item">
-                                <div class="date-div" id="datediv3">
-                                    <span class="date">17</span>
+                                <div class="date-div" id="dateDiv2">
+                                    <span class="date">12</span>
                                     <span class="month">nov</span>
                                 </div>
-                                <div class="new-block">
-                                    <h3 class="new-heading">
-                                        <a href="#" class="news-link">  Lorem, ipsum dolor.</a>
+                                <div class="news-block">
+                                    <h3 class="news-heading">
+                                        <a href="#" class="news-link">Lorem, ipsum dolor.</a>
                                     </h3>
-                                    <p class="news-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, delectus!</p>
+                                    <p class="news-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quaerat.</p>
+                                </div>
+                            </li>
+                            <li class="news-item">
+                                <div class="date-div" id="dateDiv3">
+                                    <span class="date">14</span>
+                                    <span class="month">nov</span>
+                                </div>
+                                <div class="news-block">
+                                    <h3 class="news-heading">
+                                        <a href="#" class="news-link">Lorem, ipsum dolor.</a>
+                                    </h3>
+                                    <p class="news-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quaerat.</p>
                                 </div>
                             </li>
                         </ul>
                         <button class="more-btn">more</button>
-
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section" id="footersection2">
+        <section class="section" id="footerSection2">
             <div class="container">
                 <p class="fs2-text">detroix &copy; 2024 &middot; privacy policy</p>
             </div>
         </section>
-        
     </footer>
 </body>
 </html>
